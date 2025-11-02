@@ -85,6 +85,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        Grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <8 9>;
+        };
+
+        escp {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
